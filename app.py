@@ -40,4 +40,4 @@ st.subheader("visualizacion: ")
 st.write(" Para la visulaización de la distribución de los datos realizamos graficos de barras divididos en potable y o potable para cada variable")
 
 st.write("Para el caso de la variable ph, encontramos que independientemente del valor, existen más muestras no potables que potables, encontrandose la mayor cantidad de datos en el intervalo entre ph 6 y ph 8 tanto para potables como para no potables")
-st.image("./Images/visu1.png ,caption="Poporciones de la variable ph, y de potability en estas")
+st.image("./Images/visu1.png",caption="Poporciones de la variable ph, y de potability en estas")
