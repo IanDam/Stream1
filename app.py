@@ -35,7 +35,7 @@ data["ph_2"] = pd.cut(data["ph"],4)
 data["Sulfate_2"] = pd.cut(data["Sulfate"],4) 
 data["Trihalomethanes_2"] = pd.cut(data["Trihalomethanes"],4)""", language="pyhton")
 
-st.image("./Images/visu2.png"
+st.image("./Images/visu2.png")
 st.image("./Images/1.png")
 st.write("Nuestra primera relación entre las variables independientes y la variable objetivo a traves de tablas pivot , nos muestra la cantidad de todas la variables independientes (Chloramines Conductivity Hardness Organic_carbon Solids Sulfate Trihalomethanes Turbidity ph ) por Potabilidad del Agua y por categorización de la variable ph2 a traves de 4 intervalos. Observando así que la cantidad de cada variable varia de forma significativa en cuanto a si es Potable o No Potable.")
 st.image("./Images/2.png")
