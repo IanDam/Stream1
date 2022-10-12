@@ -6,7 +6,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/labeconometria/MLxE/main/pro
 
 st.title("Proyecto 6")
 st.write(" En la presente pagina, a partir de un dataset dentro del que se determina la potabilidad del agua a partir de caracteristicas especificas como la cantidad de carbono organico o su condutividad, se realizan lo siguiente: ")
-st.subheader("1. Exploracion inicial: ")
+st.subheader("Exploracion inicial: ")
 st.write("Para la exploración inicial obtenemos información acerca del dataset cargado. En este encontramos 3276 entradas y un total de 10 variables dentro de ella (columnas). Así mismo vemos que de las 10 columnas de datos; 1 es de typo int, 9 de tipo float.Adicionalmente se observa que existen datos nulos en las variables ph, Sulfate y Trihalomethanes.")
 st.dataframe(df)
 st.caption("Dataframe interactiva: presionando una vez sobre el nombre de las variables se puede ver si existen datos nulos; presionando dos veces sobre los datos los muestra con mayor exactitud")
@@ -35,6 +35,7 @@ data["ph_2"] = pd.cut(data["ph"],4)
 data["Sulfate_2"] = pd.cut(data["Sulfate"],4) 
 data["Trihalomethanes_2"] = pd.cut(data["Trihalomethanes"],4)""", language="pyhton")
 
+st.image("./Images/visu2.png"
 st.image("./Images/1.png")
 st.write("Nuestra primera relación entre las variables independientes y la variable objetivo a traves de tablas pivot , nos muestra la cantidad de todas la variables independientes (Chloramines Conductivity Hardness Organic_carbon Solids Sulfate Trihalomethanes Turbidity ph ) por Potabilidad del Agua y por categorización de la variable ph2 a traves de 4 intervalos. Observando así que la cantidad de cada variable varia de forma significativa en cuanto a si es Potable o No Potable.")
 st.image("./Images/2.png")
