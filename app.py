@@ -53,7 +53,7 @@ st.image("./Images/visu5.png",caption="Poporciones de la variable sulfure, y de 
 st.write("Conductivitysigue la misma tendencia de las variables anteriores de predominio de las muestras no potables en practicamente todos los intervalos a excepciond de pequeños puntos en los intervalos más bajos y más altos , sin embargo, para este caso, los puntos donde resaltan las muestras potables son más pequeños. Por otra parte, aporximadamente entre 325 y 500 se agrupa la mayor cantidad de datos")
 st.image("./Images/visu6.png",caption="Poporciones de la variable conductivity, y de potability en estas")
 st.write("Para el caso de Organic_Carbon , a excepción de un punto bastante marcado entre 5 y 7.5 donde las muestras potables son mayores a las potables, las muestras no potables son mayores que las potables.Adicoonalmente, entre el 12 y 17.5 aproximandemante se encuentra la mayor cantidad de datos")
-st.image("./Images/visu.png7.png",caption="Poporciones de la variable organic_carbon, y de potability en estas")
+st.image("./Images/visu7.png",caption="Poporciones de la variable organic_carbon, y de potability en estas")
 st.write("Dentro de la variable Trihalomethanes, resalta un punto entre 60 y 80 en el que el conteo de datos es mayor en comparación con los demas puntos. Adiconalmente dentro de esta variable sigue predominando las muestras no potables.")
 st.image("./Images/visu8.png",caption="Poporciones de la variable trihalomethanes, y de potability en estas")
 st.write("Por ultimo en Turbidity , las muestras no potables resaltan más que las potables en todos los intervalos. Adiconalmente en 3.5 y 4 se agrupa la mayor cantidad de datos.")
